@@ -66,10 +66,9 @@ body {
 }
 
 .site-navigation .link {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   display: block;
-  border-bottom: 4px solid transparent;
 
   font-weight: 500;
   line-height: 1.14;
@@ -81,12 +80,10 @@ body {
 .site-navigation .link:hover,
 .site-navigation .link:focus {
   color: var(--button-background-links-color);
-  border-bottom: 4px solid var(--button-background-links-color);
 }
 
 .site-navigation .current {
   color: var(--button-background-links-color);
-  border-bottom: 4px solid var(--button-background-links-color);
 }
 
 /*Контакты в хедере*/
@@ -458,13 +455,20 @@ footer {
 
 /*Фильтр*/
 
+.filters-container {
+}
+
 .filter {
-  list-style: none;
   display: flex;
+  justify-content: center;
+  min-width: 611px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  list-style: none;
   align-items: center;
   padding-left: 0;
   margin-top: 0;
-  margin-bottom: 0;
 }
 
 .filter-items:not(:first-child) {
@@ -685,30 +689,9 @@ footer {
   padding-top: 57px;
 }
 
-.container-author {
-  margin: 0 auto;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 18px;
-  padding-bottom: 21px;
-  align-items: center;
-  text-align: center;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
-
 .main-section {
-  padding-top: 93px;
+  padding-top: 94px;
   padding-bottom: 94px;
-}
-
-.filters-container {
-  display: flex;
-  justify-content: center;
-  min-width: 611px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 50px;
 }
 
 .subtitle-container {
