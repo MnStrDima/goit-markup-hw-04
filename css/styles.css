@@ -455,9 +455,6 @@ footer {
 
 /*Фильтр*/
 
-.filters-container {
-}
-
 .filter {
   display: flex;
   justify-content: center;
