@@ -357,7 +357,7 @@ body {
 }
 
 .section-list.clients .link {
-  color: #afb1b8;
+  color: var(--social-links-prime-color);
   display: flex;
   align-items: center;
   justify-content: center;
