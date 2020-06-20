@@ -694,3 +694,12 @@ footer {
 .subtitle-container {
   padding: 20px 24px;
 }
+
+.header-icon {
+  fill: #757575;
+}
+
+.header-icon:hover,
+.header-icon:focus {
+  fill: #2196f3;
+}
