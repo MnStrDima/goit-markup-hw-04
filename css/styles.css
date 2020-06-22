@@ -118,6 +118,11 @@ body {
 .site-contacts .link:focus {
   color: var(--button-background-links-color);
 }
+
+.header-icon {
+  fill: currentColor;
+}
+
 /*Подвал страницы*/
 
 .address-links {
@@ -700,15 +705,6 @@ footer {
 
 .subtitle-container {
   padding: 20px 24px;
-}
-
-.header-icon {
-  fill: #757575;
-}
-
-.header-icon:hover,
-.header-icon:focus {
-  fill: #2196f3;
 }
 
 .icon-container {
